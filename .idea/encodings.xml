@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" defaultCharsetForPropertiesFiles="ISO-8859-1">
+    <file url="file://$PROJECT_DIR$/.env" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/Cliente.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/Http/Controllers/CidadeController.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/Http/Controllers/ClienteController.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/Http/Controllers/Controller.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/database/migrations/2020_06_26_221702_create_cidades_table.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/database/migrations/2020_06_26_221715_create_clientes_table.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/resources/views/cidade/_form.blade.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/resources/views/cidade/create.blade.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/resources/views/cidade/edit.blade.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/resources/views/cidade/index.blade.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/resources/views/cliente/_form.blade.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/resources/views/cliente/create.blade.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/resources/views/cliente/edit.blade.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/resources/views/cliente/index.blade.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/resources/views/layout/sections/footer.blade.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/resources/views/layout/sections/header.blade.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/routes/web.php" charset="UTF-8" />
+    <file url="PROJECT" charset="ISO-8859-1" />
+  </component>
+</project>

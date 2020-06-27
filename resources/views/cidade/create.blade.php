@@ -5,7 +5,7 @@
 @section('body')
 
     <div class="container">
-        <h3 class="center">Inserir cidade</h3>
+        <h3 class="center">Inserir Cidade</h3>
         <div class="row">
             <form action="{{ route('cidade.store') }}" method="post" role="form" id="form" name="form"
                   enctype="multipart/form-data">

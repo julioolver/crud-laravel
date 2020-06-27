@@ -1,6 +1,6 @@
 @extends('layout.index')
 
-@section('title', 'Listagem de estados')
+@section('title', 'Bem vindo!')
 
 @section('body')
 

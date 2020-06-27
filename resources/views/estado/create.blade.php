@@ -5,7 +5,7 @@
 @section('body')
 
     <div class="container">
-        <h3 class="center">Inserir estado</h3>
+        <h3 class="center">Inserir Estado</h3>
         <div class="row">
             <form action="{{ route('estado.store') }}" method="post" role="form" id="form" name="form"
                   enctype="multipart/form-data">

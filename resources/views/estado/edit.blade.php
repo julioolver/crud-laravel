@@ -5,7 +5,7 @@
 @section('body')
 
     <div class="container">
-        <h3 class="center">Editando estado</h3>
+        <h3 class="center">Editando Estado</h3>
         <div class="row">
             <form action="{{ $formAction }}" method="post" role="form" id="form" name="form"
                   enctype="multipart/form-data">

@@ -7,9 +7,14 @@
             background-color: #aab7b8;
         }
     </style>
-
+    <?php if(!$estados->count()): ?>
+        <div class="center">
+            <img src="<?php echo e(asset('ops.png')); ?>" style="width: 415px">
+            <p>Nenhum Registro Encontrado! Clique para Adicionar um Novo</p>
+        </div>
+    <?php else: ?>
     <div class="container" style="width: 100%;" role="main">
-        <h4 class="center">Lista de estados</h4><br>
+        <h4 class="center">Lista de Estados</h4><br>
         <form action="<?php echo e(route('estado.search')); ?>" method="POST">
             <?php echo e(csrf_field()); ?>
 
@@ -101,6 +106,7 @@
 
             </div>
         </div>
+        <?php endif; ?>
         <div class="row">
             <a href="<?php echo e(route('estado.create')); ?>" class="btn" style="float: right">Adicionar</a>
         </div>

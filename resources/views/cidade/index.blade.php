@@ -17,8 +17,14 @@
             margin-bottom: 200px;
         }
     </style>
-
+    @if(!$cidades->count())
+        <div class="center">
+            <img src="{{ asset('ops.png') }}" style="width: 415px">
+            <p>Nenhum Registro Encontrado! Clique para Adicionar um Novo</p>
+        </div>
+    @else
     <div class="container" style="width: 100%;" role="main">
+
         <h4 class="center">Lista de cidades</h4><br>
         <form action="{{route('cidade.search')}}" method="POST">
                         {{ csrf_field() }}
@@ -119,6 +125,7 @@
                 @endif
             </div>
         </div>
+        @endif
         <div class="row">
             <a href="{{ route('cidade.create') }}" class="btn" style="float: right">Adicionar</a>
         </div>

@@ -3,7 +3,7 @@
 <?php $__env->startSection('body'); ?>
 
     <div class="container">
-        <h3 class="center">Inserir estado</h3>
+        <h3 class="center">Inserir Estado</h3>
         <div class="row">
             <form action="<?php echo e(route('estado.store')); ?>" method="post" role="form" id="form" name="form"
                   enctype="multipart/form-data">
@@ -13,8 +13,8 @@
 
                 <?php echo $__env->make('estado._form', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
                 <div class="col s9 offset-s9">
-                    <a class="btn red" href="<?php echo e(route('estado.index')); ?>">Cancelar</a>
                     <button class="btn" type="submit">Salvar</button>
+                    <a class="btn red" href="<?php echo e(route('estado.index')); ?>">Cancelar</a>
                 </div>
             </form>
         </div>

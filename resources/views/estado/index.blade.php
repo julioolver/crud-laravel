@@ -9,9 +9,14 @@
             background-color: #aab7b8;
         }
     </style>
-
+    @if(!$estados->count())
+        <div class="center">
+            <img src="{{ asset('ops.png') }}" style="width: 415px">
+            <p>Nenhum Registro Encontrado! Clique para Adicionar um Novo</p>
+        </div>
+    @else
     <div class="container" style="width: 100%;" role="main">
-        <h4 class="center">Lista de estados</h4><br>
+        <h4 class="center">Lista de Estados</h4><br>
         <form action="{{route('estado.search')}}" method="POST">
             {{ csrf_field() }}
 
@@ -101,6 +106,7 @@
                 {{ $estados->links() }}
             </div>
         </div>
+        @endif
         <div class="row">
             <a href="{{ route('estado.create') }}" class="btn" style="float: right">Adicionar</a>
         </div>

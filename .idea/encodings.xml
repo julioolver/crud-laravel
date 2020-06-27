@@ -2,6 +2,7 @@
 <project version="4">
   <component name="Encoding" defaultCharsetForPropertiesFiles="ISO-8859-1">
     <file url="file://$PROJECT_DIR$/.env" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/Cidade.php" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/Cliente.php" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/Http/Controllers/CidadeController.php" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/Http/Controllers/ClienteController.php" charset="UTF-8" />
@@ -16,6 +17,7 @@
     <file url="file://$PROJECT_DIR$/resources/views/cliente/create.blade.php" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/resources/views/cliente/edit.blade.php" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/resources/views/cliente/index.blade.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/resources/views/estado/edit.blade.php" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/resources/views/layout/sections/footer.blade.php" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/resources/views/layout/sections/header.blade.php" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/routes/web.php" charset="UTF-8" />

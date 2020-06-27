@@ -12,7 +12,7 @@ class ClienteController extends Controller
     public function index()
     {
         $clientes = Cliente::paginate(10);
-        $cidades  = Cidade::all();
+        $cidades  = Cidade::ativos()->get();
 
         return view('cliente.index', compact('clientes', 'cidades'));
     }

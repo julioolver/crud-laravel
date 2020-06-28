@@ -38,7 +38,6 @@ Route::group(
     Route::get('/incluir', ['as' => 'create', 'uses' => 'CidadeController@create']);
     Route::post('/store', ['as' => 'store', 'uses' => 'CidadeController@store']);
     Route::get('/edit/{id?}', ['as' => 'edit', 'uses' => 'CidadeController@edit']);
-    Route::get('/prontuario/{atendimentoId?}', ['as' => 'prontuario', 'uses' => 'CidadeController@prontuario']);
     Route::get('/auto-complete', ['as' => 'auto-complete', 'uses' => 'CidadeController@autoComplete']);
     Route::post('/update/{id}', ['as' => 'update', 'uses' => 'CidadeController@update']);
     Route::post('/update-fast', ['as' => 'update-fast', 'uses' => 'CidadeController@updateFast']);

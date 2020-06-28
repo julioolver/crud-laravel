@@ -33,6 +33,6 @@ class Cliente extends Model
             if (isset($dados['situacao']))
                 $query->where('situacao', $dados['situacao']);
         })
-        ->paginate(2);
+        ->paginate(5);
     }
 }

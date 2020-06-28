@@ -2,30 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="accf99b1-5fb3-4aa8-ab7c-3fa585731ab0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/ops.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Cidade.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Cidade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ClienteController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ClienteController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Controller.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/cidade/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/cidade/create.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/cidade/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/cidade/edit.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/cidade/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/cidade/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/cliente/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/cliente/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/estado/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/estado/create.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/estado/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/estado/edit.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Cliente.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Cliente.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Estado.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Estado.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/estado/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/estado/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layout/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layout/home.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layout/sections/header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layout/sections/header.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/framework/sessions/pRyssuvM2mDb4B9sK7iw3WkqxvPHdCxHsaoU0B06" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/sessions/pRyssuvM2mDb4B9sK7iw3WkqxvPHdCxHsaoU0B06" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/framework/views/4eea01a73ae087a8a78397c5d1d7d1c7f3c12b1a.php" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/views/4eea01a73ae087a8a78397c5d1d7d1c7f3c12b1a.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/framework/views/66e3547f56d9a74014f0735e6ea2ac5a4dc7af72.php" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/views/66e3547f56d9a74014f0735e6ea2ac5a4dc7af72.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/framework/views/7ed0f059437463b2b50de5f33d1696c0fbdced31.php" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/views/7ed0f059437463b2b50de5f33d1696c0fbdced31.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/framework/views/a0ea9767acad1c9054616f6942df339da12967ef.php" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/views/a0ea9767acad1c9054616f6942df339da12967ef.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/views/6c77ab4c4a499f74c5f1e8bb0ab4f2887faed0fb.php" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/views/6c77ab4c4a499f74c5f1e8bb0ab4f2887faed0fb.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/storage/framework/views/b076e6a3c71ddf500a96a8191071afe793a45a97.php" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/views/b076e6a3c71ddf500a96a8191071afe793a45a97.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/framework/views/fd8e479ece70704897f24e08dbd524761897bc39.php" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/views/fd8e479ece70704897f24e08dbd524761897bc39.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/logs/laravel-2020-06-27.log" beforeDir="false" afterPath="$PROJECT_DIR$/storage/logs/laravel-2020-06-27.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -209,7 +193,7 @@
       <updated>1593209154578</updated>
       <workItem from="1593209159939" duration="24130000" />
       <workItem from="1593272304457" duration="23427000" />
-      <workItem from="1593296679931" duration="4880000" />
+      <workItem from="1593296679931" duration="7232000" />
     </task>
     <task id="LOCAL-00001" summary="CRUD com Laravel">
       <created>1593297238868</created>
@@ -218,7 +202,14 @@
       <option name="project" value="LOCAL" />
       <updated>1593297238868</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Ajustes no CRUD">
+      <created>1593301631276</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1593301631276</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -226,36 +217,37 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="CRUD com Laravel" />
-    <option name="LAST_COMMIT_MESSAGE" value="CRUD com Laravel" />
+    <MESSAGE value="Ajustes no CRUD" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ajustes no CRUD" />
   </component>
   <component name="WindowStateProjectService">
     <state x="499" y="168" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1593291745461">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="168" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1536.824@0.0.1536.824" timestamp="1593291745461" />
-    <state x="266" y="10" key="CommitChangelistDialog2" timestamp="1593297221915">
+    <state x="266" y="10" key="CommitChangelistDialog2" timestamp="1593301630480">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="266" y="10" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1593297221915" />
+    <state x="266" y="10" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1593301630480" />
     <state x="922" y="340" key="NewPhpFileDialog" timestamp="1593215679789">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="922" y="340" key="NewPhpFileDialog/0.0.1536.824@0.0.1536.824" timestamp="1593215679789" />
-    <state x="361" y="146" key="Vcs.Push.Dialog.v2" timestamp="1593297259944">
+    <state x="361" y="146" key="Vcs.Push.Dialog.v2" timestamp="1593301636846">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="146" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1593297259944" />
-    <state x="368" y="129" width="738" height="536" key="find.popup" timestamp="1593296128591">
+    <state x="361" y="146" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1593301636846" />
+    <state x="368" y="129" width="738" height="536" key="find.popup" timestamp="1593303141750">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="368" y="129" width="738" height="536" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1593296128591" />
-    <state x="809" y="189" width="672" height="677" key="run.anything.popup" timestamp="1593289072086">
+    <state x="368" y="129" width="738" height="536" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1593303141750" />
+    <state x="809" y="189" width="672" height="677" key="run.anything.popup" timestamp="1593302275615">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="809" y="189" width="672" height="677" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1593289072086" />
-    <state x="814" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1593301603851">
+    <state x="809" y="189" width="672" height="677" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1593302275615" />
+    <state x="814" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1593302478215">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="814" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1593301603851" />
+    <state x="814" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1593302478215" />
   </component>
 </project>

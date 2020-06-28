@@ -1,4 +1,4 @@
-<?php $__env->startSection('title', 'Listagem de estados'); ?>
+<?php $__env->startSection('title', 'Bem vindo!'); ?>
 
 <?php $__env->startSection('body'); ?>
 

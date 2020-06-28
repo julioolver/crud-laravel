@@ -26,13 +26,13 @@
 
                 <div class="input-field col s4" style=" margin-left: 50px">
                     <i class="material-icons prefix">location_on</i>
-                    <input style="color: black" type="text" name="nome" id="nome" value="">
+                    <input style="color: black" type="text" name="nome" id="nome" value="<?php echo e(isset($dadosBusca['nome']) ? $dadosBusca['nome'] : ''); ?>">
                     <label for="nome" style="color: black">Nome do estado</label>
                 </div>
 
                 <div class="input-field col s2" style="">
                     <i class="material-icons prefix">location_on</i>
-                    <input style="color: black" type="text" name="nome_clinica" id="uf" value="" maxlength="2">
+                    <input style="color: black" type="text" name="uf" id="uf" value="<?php echo e(isset($dadosBusca['uf']) ? $dadosBusca['uf'] : ''); ?>" maxlength="2">
                     <label for="uf" style="color: black">UF</label>
                 </div>
 
